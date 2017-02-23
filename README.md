@@ -6,11 +6,11 @@ The data is extracted from the AMI corpus [1] using the heuristic detailed in [2
 The data contains 338 dialogues, separated by double linebreaks.
 
 Each dialogue contains:
-10 utterances of prior context.
-the SOURCE of the clarification request (the utterance that is clarified), marked by "->"
-the clarification request (CR) itself, marked by "-->"
-the ANSWER to the CR, marked by "->"
-the FOLLOW UP of the asker of the CR, marked by "->"
+- 10 utterances of prior context.
+- the SOURCE of the clarification request (the utterance that is clarified), marked by "->"
+- the clarification request (CR) itself, marked by "-->"
+- the ANSWER to the CR, marked by "->"
+- the FOLLOW UP of the asker of the CR, marked by "->"
 
 The last line of each excerpt is the annotation. There are 5 annotations:
 - "not" indicates that the CR is not actually a clarification request (i.e. a false positive of the heuristic).
