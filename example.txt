@@ -1,0 +1,23 @@
+This is the first dialogue in the dataset:
+
+A: Yeah but y but you have to go through all the channels if you want to go
+B: I think you can if you have a scale , so
+C: No no , you don't have to y no
+C: it's uh when you when you stop t uh
+C: when you stop , the the turn ,
+A: Mm-hmm .
+C: then the angle you stop is the angle you is the channel you
+D: Yeah .
+D: How d how do you know this angle is th is the correct one ?
+-> C: It's it's very easy , because you kn you know how many channel are there in the
+--> D: So you you count one degree , two degrees , no .
+-> C: Yeah , yeah , yeah . You can do it .
+-> D: I don't think so .
+int-tr,
+
+- "C: It's it's very easy , because you kn you know how many channel are there in the" is the SOURCE.
+- "D: So you you count one degree , two degrees , no ." is the CR.
+- "C: Yeah , yeah , yeah . You can do it ." is the  ANSWER.
+- "D: I don't think so ." is the FOLLOW UP.
+
+The last line indicates that the CR is judged to be an intention-transfer clarification request.
