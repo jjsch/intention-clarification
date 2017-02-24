@@ -1,9 +1,13 @@
 # intention-clarification
 A dataset of clarification requests extracted from the AMI Corpus, annotated for whether they target intentionality.
 
-The data is extracted from the AMI corpus [1] using the heuristic detailed in [2]. It is annotated by two expert annotators.
+## Content
 
 The data contains 338 dialogues, separated by double linebreaks.
+
+It is extracted from the AMI corpus [1] using the heuristic detailed in [2]. It is annotated by two expert annotators.
+
+## Format & Annotation
 
 Each dialogue contains:
 - 10 utterances of prior context
@@ -21,7 +25,11 @@ The last line of each excerpt is the annotation. There are 5 annotations:
 - "int-tr" indicates that the CR is an intention-adoption CR.
 - "ambig" indicates that the CR is ambiguous between one or more of the above categories.
 
+## Use
+
 The data points towards a significant, but understudied, class of clarification questions. Some discussion can be found in [3].
+
+## References
 
 [1] Carletta, J. (2007). Unleashing the killer corpus: experiences in creating the multi-everything AMI meeting corpus. Language Resources and Evaluation 41(2), 181–190.
 
